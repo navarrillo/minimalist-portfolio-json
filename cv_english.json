@@ -235,5 +235,14 @@
       "reference": ""
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "name": "",
+      "isActive": true,
+      "description": "",
+      "highlights": [],
+      "url": "",
+      "github": ""
+    }
+  ]
 }
