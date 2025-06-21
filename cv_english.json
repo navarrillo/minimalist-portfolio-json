@@ -34,11 +34,20 @@
   },
   "work": [
     {
+      "name": "GE Healthcare",
+      "position": "Software Engineering Manager",
+      "url": "https://www.gehealthcare.com/",
+      "startDate": "2025-01-20",
+      "endDate": null,
+      "summary": "At GE Healthcare in Uppsala, I lead the software engineering team in the radiopharmacy division, focusing on developing and optimizing software for cyclotron operations. I drive team skill development and ensure seamless integration of advanced software solutions for radiopharmaceutical production.",
+      "highlights": ["Managed the software engineering team for cyclotron-related projects", "Oversaw development and integration of software for radiopharmacy applications"]
+},
+    {
       "name": "VCON",
       "position": "Software Development Manager",
       "url": "https://vcon.es/",
       "startDate": "2022-01-01",
-      "endDate": null,
+      "endDate": "2025-01-10",
       "summary": "At VCON, I lead our software team, focusing on developing our team skills and creating advanced sorting software with .NET6. I'm also responsible for setting up this software at our client's locations to ensure it works smoothly.",
       "highlights": ["Managed the development department and commissioning"]
     },
