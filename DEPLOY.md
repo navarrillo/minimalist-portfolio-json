@@ -31,3 +31,13 @@ cv.sergionavarro.me {
 ```
 
 `dist/index.html` is the document at `/`. Hashed assets live under `dist/_astro/`.
+
+## Printing a private contact line
+
+The built files do not include an email address. To show one on a PDF, open the site with a URL fragment and print from the browser:
+
+```text
+https://cv.sergionavarro.me/#contact=you@example.com
+```
+
+The fragment stays in the browser. It is not sent to the server and is not part of the build. The page copies it into a line that is visible only while printing. With no fragment, that line stays empty. Percent-encode the value if it contains characters such as `+` or `&`.
