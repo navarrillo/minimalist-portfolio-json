@@ -1,12 +1,11 @@
 import { defineConfig } from 'astro/config';
 
-import node from '@astrojs/node';
-
-// https://astro.build/config
+// Static HTML, CSS, and JS in dist/ for a file server. No Node adapter.
 export default defineConfig({
-  output: 'server',
-
-  adapter: node({
-    mode: 'standalone'
-  })
+  output: 'static',
+  vite: {
+    build: {
+      sourcemap: false,
+    },
+  },
 });
