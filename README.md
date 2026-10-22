@@ -61,6 +61,7 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 
 ### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
 
+Necesitas Node.js `>=22.23.4`. `.nvmrc` fija la major `22`. Astro 7.4 pide esa versión, que es más estricta que la de `sharp` (`>=20.9.0`).
 
 - Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
