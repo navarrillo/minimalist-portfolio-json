@@ -12,7 +12,7 @@ and atomically publishes `dist/` to `/srv/sites/cv`. The build is fully static. 
 
 ## Requirements
 
-Astro 4.15 needs Node.js `^18.17.1 || ^20.3.0 || >=21.0.0` and npm `>=9.6.5`.
+Astro 7.4 needs Node.js `>=22.23.4` and npm `>=9.6.5`. `sharp@0.35.5` needs Node.js `>=20.9.0`, so the stricter requirement is Node.js `>=22.23.4` (`.nvmrc` selects major 22).
 
 Build with `TZ=UTC`. Work and education years come from `Date#getFullYear()` on ISO dates, which JavaScript treats as UTC midnight. A timezone west of UTC can shift 1 January dates back one year.
 
