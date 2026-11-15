@@ -94,6 +94,7 @@ pnpm dev
 | ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en  `localhost:4321`.  |
 | ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
 | ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
+| ⚙️  | `test`           | Comprueba los iconos de inicio (PNG opacos) y que el HTML de producción los enlaza. Requiere `build` antes. |
 
 
 
